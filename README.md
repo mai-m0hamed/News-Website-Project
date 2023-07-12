@@ -50,7 +50,7 @@ To fetch news articles from the News API, you need to obtain an API key. Follow 
 * Visit the News API website [https://newsapi.org](https://example.com) and create an account.
 * Once you've created an account, you will receive an API key.
 * Open the index.js.
-* Replace 'YOUR_API_KEY' on line 4 with your actual API key.
+* Replace 'YOUR_API_KEY' on line 16 with your actual API key.
  ```js
    const API_KEY = 'ENTER YOUR API';
    ```
