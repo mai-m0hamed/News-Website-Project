@@ -4,9 +4,12 @@
 <h2 align="left"><u>Project describtion</u></h2>
 <h3 align="left"> firstly you can have a quick tour through our website just click on the following link it will display a quick video for it
 
-[News Website tour]({https://drive.google.com/file/d/1pDlMUUIRm2XKHRh-4LGrhyWAg4ljX-jF/view?usp=sharing} "Link Title")
+## News Website tour
 
- Introducing a cutting-edge news website that delivers the latest and most relevant information to its users, built with HTML, CSS, JSON, and powered by News API keys.
+https://github.com/mai-m0hamed/News-Website-Project/assets/115077795/9206e156-9c19-4f3a-bbc6-a2bc9b1b0693
+
+
+Introducing a cutting-edge news website that delivers the latest and most relevant information to its users, built with HTML, CSS, JSON, and powered by News API keys.
 
 The website's foundation lies in HTML, a markup language used for structuring and presenting content on the web. With HTML, each news article is elegantly organized, allowing readers to navigate through different sections such as General, Business, sports, entertainment, technology.
 
