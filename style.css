@@ -1,0 +1,66 @@
+.search-form {
+    margin-left: auto; 
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav {
+    margin-right: auto;
+    background-color: midnightblue;
+}
+
+.navbar{
+    background-color: midnightblue;
+
+
+
+}
+
+.navbar-brand{
+
+    color: white;
+
+
+}
+.navbar-nav .nav-item .nav-link {
+    color: white;
+  }
+  
+.search-input {
+    margin-right: 10px;
+    margin-left: auto;
+
+}
+
+.search-btn {
+    margin-left: auto;
+}
+.btn,
+.btn:focus {
+  border-color: white;
+}
+
+.search-form .btn {
+  color: white;
+}
+
+.form-select{
+
+    margin-left: 10px;
+    border-radius: 20px;
+    color: rgb(116, 114, 114);
+    border-color: white;
+    
+
+
+}
+
+
+
+
+
+.background-container{
+  background-image: url('images/3401630.jpg'); 
+  background-size:contain;
+  background-position:center; 
+}

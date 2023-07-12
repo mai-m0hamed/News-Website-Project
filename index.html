@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>News Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="m-0 p-0 background-container">
+
+    <div class="container-fluid">
+
+        <!-- navbar -->
+        <div>
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+
+
+                  <a class="navbar-brand" href="#">News</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#general"id="General">General</a>
+                        </li>
+                      <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#business"id="Business">Business</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#sports"id="Sports">Sports</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#technology"id="Technology">Technology</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#entertainment"id='Entertainment'>Entertainment</a>
+                      </li>
+
+
+                    </ul>
+                    <form class="search-form" role="search">
+                        <input class="form-control search-input" type="text" id="newsquery" placeholder="Search">
+                        <button class="btn " type="button" id="searchbtn">Search</button>
+                        
+                        <select class="form-select"id="sortby">
+                            <option selected>sort by</option>
+                            <option value="1">Date</option>
+                            <option value="2">Relevency</option>
+                            <option value="3">Popularity</option>
+                          </select>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+
+        </div>
+
+
+
+        <!-- news -->
+        <div>
+
+            <div class="row"id="newstype"></div>
+            <div class="row"id="newsdetails"></div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+    <script src="index.js"></script>
+
+
+    <script src="https://unpkg.com/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  </body>
+</html>
